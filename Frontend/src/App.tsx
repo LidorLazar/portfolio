@@ -1,5 +1,5 @@
-import { useState } from "react";
 import Navbar from "./Screen/Navbar";
+import AboutMe from "./Screen/abuotMe";
 
 function App() {
   return (
@@ -7,6 +7,9 @@ function App() {
       <header>
         <Navbar />
       </header>
+      <main>
+        <AboutMe />
+      </main>
     </div>
   );
 }

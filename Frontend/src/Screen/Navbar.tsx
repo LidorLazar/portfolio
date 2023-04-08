@@ -14,7 +14,13 @@ const Navbar = () => {
             <a href={"#"}></a>About me
           </li>
           <li>
-            <a href={"#"}></a>Linkedin
+            <a
+              href="https://www.linkedin.com/in/lidor-lazar"
+              target="_blank"
+              rel="Linkedin-url"
+            >
+              Linkedin
+            </a>
           </li>
           <li>
             <a href={"#"}></a>Projects
