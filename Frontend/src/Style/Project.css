@@ -1,0 +1,65 @@
+body {
+    background-color: #272425;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.cards{
+    height: 72.5vh;
+
+}
+
+
+.title-project{
+    color: white;
+    text-align: center;
+}
+
+.cards-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10% ;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.image{
+    width: 500px;
+}
+
+.bth-links{
+    display: flex;
+    gap: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 134px;
+}
+
+.bth{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+
+.bth:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    border: solid;
+    border-radius: 40px;
+    box-shadow: 0 0 15px white;
+    text-shadow: 0 0 15px black;
+    background-color: white;
+    color: black;
+}
+

@@ -1,5 +1,7 @@
 import Navbar from "./Screen/Navbar";
 import AboutMe from "./Screen/abuotMe";
+import Project from "./Screen/Project";
+import Skills from "./Screen/Skills";
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       </header>
       <main>
         <AboutMe />
+        <Project />
       </main>
     </div>
   );

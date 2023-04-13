@@ -56,3 +56,15 @@ nav ul li:hover {
 
 nav ul li a:hover{
     color: black;}
+
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 20px;
+        height: 40px;
+    }
+    .nav{
+        display: block;
+
+    }
+}
