@@ -1,0 +1,37 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+
+
+.tittle-skills {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.row-skills {
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.skill {
+    width: calc(20% - 20px);
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+.skill img {
+    background-image: none;
+    margin-top: 20px;
+}
+
+.skill img:hover{
+    box-shadow: 0 0 20px white;
+}

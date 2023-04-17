@@ -2,6 +2,7 @@ import Navbar from "./Screen/Navbar";
 import AboutMe from "./Screen/abuotMe";
 import Project from "./Screen/Project";
 import Skills from "./Screen/Skills";
+import Footer from "./Screen/Footer";
 
 function App() {
   return (
@@ -12,7 +13,11 @@ function App() {
       <main>
         <AboutMe />
         <Project />
+        <Skills />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

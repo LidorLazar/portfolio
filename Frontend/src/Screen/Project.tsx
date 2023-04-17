@@ -15,21 +15,7 @@ const Project = () => {
       title: "Soccer Store Ecommerce",
       github: "https://github.com/LidorLazar/WebEcommerceFInalProject",
       live: "https://soocerstore.netlify.app/",
-      image: " ../../public/soccerStore.png",
-    },
-    {
-      id: 3,
-      title: "Soccer Store Ecommerce",
-      github: "https://github.com/LidorLazar/WebEcommerceFInalProject",
-      live: "https://soocerstore.netlify.app/",
-      image: " ../../public/soccerStore.png",
-    },
-    {
-      id: 4,
-      title: "Soccer Store Ecommerce",
-      github: "https://github.com/LidorLazar/WebEcommerceFInalProject",
-      live: "https://soocerstore.netlify.app/",
-      image: " public/soccerStore.png",
+      image: "../assets/soccerStore.png",
     },
   ];
 
@@ -39,11 +25,7 @@ const Project = () => {
       <div className="cards-list">
         {projects.map((item) => (
           <div className="card" key={item.id}>
-            <img
-              src={item.image}
-              alt="Soccer-store-project"
-              className="image"
-            />
+            <img src={item.image} alt={item.title} className="image" />
             <br />
             <div className="bth-links">
               <a

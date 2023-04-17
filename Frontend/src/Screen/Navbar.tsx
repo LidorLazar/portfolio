@@ -8,10 +8,13 @@ const Navbar = () => {
         <img src={"logo.png"} alt={"logo-nav"} className={"logo"} />
         <ul>
           <li>
-            <a href={"#"}></a> Home
+            <a href={"#about-me"}></a>About me
           </li>
           <li>
-            <a href={"#"}></a>About me
+            <a href={"#projects"}>Projects</a>
+          </li>
+          <li>
+            <a href={"#skills"}>Skills</a>
           </li>
           <li>
             <a
@@ -22,9 +25,7 @@ const Navbar = () => {
               Linkedin
             </a>
           </li>
-          <li>
-            <a href={"projects"}></a>Projects
-          </li>
+
           <li>
             <a
               href={
