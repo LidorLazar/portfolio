@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/AboutMe.css";
+import "../style/AboutMe.css";
 
 const AboutMe = () => {
   return (
@@ -20,7 +20,7 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
-      <a href="#about-me" className="scroll-down">
+      <a href={"#projects"} className="scroll-down">
         <i className="fa-sharp fa-solid fa-chevrons-down fa-bounce">
           Scroll Down
         </i>

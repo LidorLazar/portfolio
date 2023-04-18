@@ -60,11 +60,18 @@ nav ul li a:hover{
 
 @media screen and (max-width: 600px) {
     .logo {
+        display: none;
         width: 20px;
         height: 40px;
     }
-    .nav{
-        display: block;
+    .nav-main{
+        /*height: 10vh;*/
+        background-color: red;
 
     }
-}
+    nav{
+        font-family: 'Roboto Mono', monospace;
+        font-size: 5px;
+    }
+
+    }

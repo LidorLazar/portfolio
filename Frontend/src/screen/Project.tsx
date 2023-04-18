@@ -1,21 +1,27 @@
 import React from "react";
-import "../Style/Project.css";
+import "../style/Project.css";
 
 const Project = () => {
-  const projects = [
+  const projects: {
+    id: number;
+    title: string;
+    github: string;
+    live: string;
+    image: string;
+  }[] = [
     {
       id: 1,
       title: "Soccer Store Ecommerce",
       github: "https://github.com/LidorLazar/WebEcommerceFInalProject",
       live: "https://soocerstore.netlify.app/",
-      image: " ../../public/soccerStore.png",
+      image: "soccerStore.png",
     },
     {
       id: 2,
-      title: "Soccer Store Ecommerce",
-      github: "https://github.com/LidorLazar/WebEcommerceFInalProject",
-      live: "https://soocerstore.netlify.app/",
-      image: "../assets/soccerStore.png",
+      title: "Yarkona",
+      github: "https://github.com/LidorLazar/Yarkona",
+      live: "https://vmfc-yarkona.netlify.app/",
+      image: "YarkonaProject.png",
     },
   ];
 

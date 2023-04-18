@@ -1,8 +1,8 @@
 import React from "react";
-import "../Style/Skills.css";
+import "../style/Skills.css";
 
 const Skills = () => {
-  const skills = [
+  const skills: { id: number; name: string; image: string }[] = [
     {
       id: 1,
       name: "CSS",

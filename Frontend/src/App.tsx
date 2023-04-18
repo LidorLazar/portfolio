@@ -1,8 +1,8 @@
-import Navbar from "./Screen/Navbar";
-import AboutMe from "./Screen/abuotMe";
-import Project from "./Screen/Project";
-import Skills from "./Screen/Skills";
-import Footer from "./Screen/Footer";
+import Navbar from "./screen/Navbar";
+import AboutMe from "./screen/AbuotMe";
+import Project from "./screen/Project";
+import Skills from "./screen/Skills";
+import Footer from "./screen/Footer";
 
 function App() {
   return (
